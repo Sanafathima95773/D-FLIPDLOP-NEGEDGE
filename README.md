@@ -27,7 +27,7 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
 **Procedure**
-```
+
 Step-1 Define Module: Define a Verilog module for the D flip-flop with inputs (D, CLK) and outputs (Q, Q_bar).
 
 Step-2 Declare Inputs and Outputs: Declare input and output ports for the module.
@@ -41,7 +41,6 @@ Step-5 Apply Input Stimuli: In the testbench, apply various combinations of inpu
 Step-6 Verify Output Behavior: Verify that the output behavior of the D flip-flop matches the expected behavior defined by its functional table.
 
 Step-7 Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
-```
 
 **PROGRAM**
 ```
@@ -49,7 +48,7 @@ Step-7 Check for Race Conditions: Ensure that there are no race conditions or un
 Developed by: Sana Fathima H
  RegisterNumber: 212223240145
 */
-module Exp_08D(d, clk, rst, q);
+module e8(d, clk, rst, q);
   input d, clk, rst;
   output reg q;
 
@@ -69,7 +68,8 @@ endmodule
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![image](https://github.com/user-attachments/assets/23fc3aef-43ca-47f3-a38a-6c2f62158868)
+![image](https://github.com/user-attachments/assets/c4687f6b-af1b-49f1-8245-cee9b9672884)
+
 
 
 
